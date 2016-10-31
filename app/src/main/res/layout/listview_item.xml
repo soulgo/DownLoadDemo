@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="#FFFFFF00">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:textSize="15sp"
+        android:text="测试"
+        android:id="@+id/item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"/>
+
+    <ImageView
+        android:contentDescription="选择"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:id="@+id/item_image"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:src="@null"/>
+
+</LinearLayout>
